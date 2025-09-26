@@ -8,16 +8,20 @@
     <link rel='stylesheet' href='style/style.css'>
 </head>
 <body>
-    <img src='images/nugget.jpeg' alt='логотип'>
-    <h1> Мой не сам </h1>
-</headre>
-<nav>
-    <a href='/demo-exam/moy_ne_sam'>Главное</a>
-    <a href='/demo-exam/moy_ne_sam/admin'>Админ</a>
-</nav>
-<main>
-</main>
-<footer>2025</footer>
+    <header> <img src='images/nugget.jpeg' alt='логотип'>
+        <h1> Мой не сам </h1>
+    </header>
+    <nav>
+        <a href='/demo-exam/moy_ne_sam'>Главное</a>
+        <a href='/demo-exam/moy_ne_sam/admin'>Админ</a>
+    </nav>
+
+    <main>
+        <footer>
+            <h3>2025</h3>
+        </footer>
+    </main>
+
     <script src='script/script.js'></script>
 </body>
 </html>
