@@ -1,3 +1,6 @@
+<?php
+require_once "db/db.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,8 +20,17 @@
     </nav>
 
     <main>
+        <h1>Авторизация</h1>
+        <label>Логин
+            <input type="text" name="login">
+        </label>
+        <label>Пароль
+            <input type="text" name="password">
+        </label>
+        <button>Вход</button>
+        <p class="Error"></p>
         <footer>
-            <h3>2025</h3>
+        <h3>2025</h3>
         </footer>
     </main>
 

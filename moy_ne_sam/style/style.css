@@ -33,3 +33,6 @@ footer {
     position: fixed;
     bottom: 0;
 }
+.Error {
+    color: darkred;
+}
